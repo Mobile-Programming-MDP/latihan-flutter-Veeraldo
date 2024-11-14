@@ -24,11 +24,11 @@ class _HomescreenState extends State<Homescreen> {
               SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
           padding: EdgeInsets.all(8),
           itemCount: candiList.length,
+          //TODO: 3 Buat Itemcard sebagai return value dari Gridview.builder
           itemBuilder: (context, index) {
             Candi candi = candiList[index];
             return ItemCard(candi: candi);
           }),
-      //TODO: 3 Buat Itemcard sebagai return value dari Gridview.builder
     );
   }
 }
