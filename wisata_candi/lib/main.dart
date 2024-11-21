@@ -5,6 +5,8 @@ import 'package:wisata_candi/detail_screen.dart';
 import 'package:wisata_candi/profil_screen.dart';
 import 'package:wisata_candi/search_screen.dart';
 import 'package:wisata_candi/home_screen.dart';
+import 'package:wisata_candi/sign_in_screen.dart';
+import 'package:wisata_candi/widgets/sign_up_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -16,17 +18,17 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // home: DetailScreen(
-      //   candi: candiList[0],
-      // ),
-      debugShowCheckedModeBanner: false,
-      title: 'Wisata Candi',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: const MainScreen(),
-    );
+        // home: DetailScreen(
+        //   candi: candiList[0],
+        // ),
+        debugShowCheckedModeBanner: false,
+        title: 'Wisata Candi',
+        theme: ThemeData(
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+          useMaterial3: true,
+        ),
+        home: const SignUpScreen() // MainScreen(),
+        );
   }
 }
 
@@ -97,6 +99,25 @@ class _MainScreenState extends State<MainScreen> {
         ),
       ),
       //TODO: 4 Buat data dan child dari Theme
+    );
+  }
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Wisata Candi',
+      theme: ThemeData(),
+      home: MainScreen(),
+      initialRoute: '/',
+      routes: {
+        '/homescreen': (context) => const Homescreen(),
+        '/signup': (context) => const SignUpScreen()
+      },
     );
   }
 }
