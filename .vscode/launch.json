@@ -1,0 +1,154 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "bonusuas",
+            "cwd": "bonusuas",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "bonusuas (profile mode)",
+            "cwd": "bonusuas",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "bonusuas (release mode)",
+            "cwd": "bonusuas",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "bonusuas2",
+            "cwd": "bonusuas2",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "bonusuas2 (profile mode)",
+            "cwd": "bonusuas2",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "bonusuas2 (release mode)",
+            "cwd": "bonusuas2",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "cek_koneksi",
+            "cwd": "cek_koneksi",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "iteraction",
+            "cwd": "iteraction",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "iteraction (profile mode)",
+            "cwd": "iteraction",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "iteraction (release mode)",
+            "cwd": "iteraction",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "lottie_demo",
+            "cwd": "lottie_demo",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "lottie_demo (profile mode)",
+            "cwd": "lottie_demo",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "lottie_demo (release mode)",
+            "cwd": "lottie_demo",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "notes",
+            "cwd": "notes",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "notes (profile mode)",
+            "cwd": "notes",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "notes (release mode)",
+            "cwd": "notes",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "wisata_candi",
+            "cwd": "wisata_candi",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "wisata_candi (profile mode)",
+            "cwd": "wisata_candi",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "wisata_candi (release mode)",
+            "cwd": "wisata_candi",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "latihanuts",
+            "cwd": "Latihan\\latihanuts",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "latihanuts (profile mode)",
+            "cwd": "Latihan\\latihanuts",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "latihanuts (release mode)",
+            "cwd": "Latihan\\latihanuts",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
